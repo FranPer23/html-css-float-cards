@@ -19,4 +19,30 @@ h1 {
     margin-bottom: 40px;
 }
 
+/* MAIN */
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    width: calc (100% / 3 - 2rem);
+    float: left;
+    margin-right: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
 
