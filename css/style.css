@@ -4,5 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
+
+/* HEADER */
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #e53170;  
+    margin-bottom: 40px;
+}
+
 
